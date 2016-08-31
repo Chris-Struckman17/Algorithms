@@ -13,7 +13,3 @@ def mergeCompare(A,B):
             elif(A[i] > B[j]):
                 j = j+1
     return False
-
-A = [1,2,4,5,7,8,9]
-B = [3,5,10,15,16]
-print mergeCompare(A,B)
